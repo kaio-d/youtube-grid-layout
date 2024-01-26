@@ -1,0 +1,54 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+header {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .left {
+  margin: 16px 0 16px 24px;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+header .center {
+  margin: 8px 0;
+  display: flex;
+}
+
+header .center input{
+  width: 348px;
+  height: 40px;
+  border: 1px solid #CCCCCC;
+}
+
+header .center button {
+  width: 57px;
+  height: 40px;
+  border: 1px solid #CCCCCC;
+}
+
+header .right {
+  display: flex;
+  align-items: center;
+  margin: 11px 24px 11px 0;
+}
+
+.right img:nth-child(2){
+  margin: 0px 27px;
+}
+
+.avatar {
+  width: 34px;
+  border-radius: 50%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  height: 100vh;
+}
