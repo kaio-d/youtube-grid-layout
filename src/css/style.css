@@ -49,6 +49,13 @@ header .right {
 
 .container {
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 10% 90%;
   height: 100vh;
+}
+
+section {
+  display: grid;
+  margin: 24px 0 0 28px;
+  grid-template-columns: repeat(4, 22.5%);
+  grid-template-rows: repeat(3,30%);
 }
