@@ -49,13 +49,26 @@ header .right {
 
 .container {
   display: grid;
-  grid-template-columns: 10% 90%;
-  height: 100vh;
+  grid-template-columns: 15% 85%;
+  width: 100%;
+  height: 94vh;
 }
 
 section {
   display: grid;
   margin: 24px 0 0 28px;
-  grid-template-columns: repeat(4, 22.5%);
+  grid-template-columns: repeat(5, 20%);
   grid-template-rows: repeat(3,30%);
+}
+
+aside {
+  background-color: #fff;
+  padding: 24px 0 0 24px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
+  gap: 16px;
 }
