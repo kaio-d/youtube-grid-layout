@@ -7,6 +7,11 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
 
 header .left {
   margin: 16px 0 16px 24px;
@@ -24,6 +29,10 @@ header .center input{
   width: 348px;
   height: 40px;
   border: 1px solid #CCCCCC;
+}
+
+header .center input::placeholder {
+  padding-left: 10px;
 }
 
 header .center button {
@@ -71,4 +80,8 @@ aside {
   align-items: center;
   margin-bottom: 22px;
   gap: 16px;
+}
+
+.menu-inicio{
+  font-weight: 700;
 }
